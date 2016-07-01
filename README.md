@@ -1,5 +1,5 @@
 # Painel Sincronizador
-> ( para migração do sistema de cominicação asterisk )
+> ( para migração do sistema )
 
 Projeto utilizando Vue.js com webpack
 
