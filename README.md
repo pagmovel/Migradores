@@ -1,6 +1,9 @@
-# painel
+# Painel Sincronizador
+> ( para migração do sistema de cominicação asterisk )
 
-> A Vue.js project
+Projeto utilizando Vue.js com webpack
+
+O build.js será gerado na pasta /assets/js/painel/ (raiz do projeto)
 
 ## Build Setup
 
@@ -15,4 +18,4 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
