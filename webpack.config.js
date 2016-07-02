@@ -4,8 +4,10 @@ var webpack = require('webpack')
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, '../../../assets/js/painel'),
-    publicPath: 'assets/js/painel/',
+    /* path: path.resolve(__dirname, '../../../assets/js/painel'),
+    publicPath: 'assets/js/painel/', */
+    path: path.resolve(__dirname, './dist'),
+    publicPath: '/dist/',
     filename: 'build.js'
   },
   resolveLoader: {
@@ -20,6 +22,9 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel',
+        /* query: {
+          presets: ['es2015']
+        }, */
         exclude: /node_modules/
       },
       {
@@ -38,7 +43,7 @@ module.exports = {
           name: '[name].[ext]?[hash]'
         }
       },
-      { 
+      {
         test: /\.css$/,
         loader: 'style!css'
       },
